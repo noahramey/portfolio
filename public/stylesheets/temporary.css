@@ -1,0 +1,53 @@
+html, body, .wrapper {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: table;
+}
+
+.wrapper-alt {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+
+  vertical-align: middle;
+}
+
+.content {
+  width: 25%;
+  height: 25%;
+  margin: auto;
+}
+
+
+body {
+  background: #FEFEFE;
+  font-family: "Bitter", serif;
+}
+
+
+p {
+  margin-top: -10px;
+}
+
+.links {
+  margin-top: -13px;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: #ed490a;
+  text-decoration: none;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
